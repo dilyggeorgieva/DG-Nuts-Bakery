@@ -1,0 +1,237 @@
+body{
+    margin: 0%;
+}
+.titleandlogo{
+    display: flex;
+    align-items: center;
+    background-color: #ffe6cc;
+}
+.title{
+    text-align: center;
+    width: 100%;
+}
+#head{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-style: italic;
+    font-size: 50px;
+}
+#logo{
+    width: 120px;
+    height: 120px;
+}
+
+
+
+.menu{
+    display: flex;
+    align-items: center;
+    background-color: #ff9933;
+}
+.buttons{
+    width: 25%;
+    text-align: center;
+}
+.button{
+    font-size: 25px;
+    padding: 5px;
+    border: 5px solid #ffe6cc;
+    border-radius: 12px;
+    height: 50px;
+}
+#select{
+    background-color: #ffe6cc;
+    color: black;
+}
+#other{
+    background-color: #ff9933;
+    color: white;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+#other:hover {
+    background-color: #ffe6cc;
+    color: black;
+}
+
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: #ff9933;
+}
+.footerleft{
+    width: 40%;
+}
+#copyright{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: white;
+    font-size: 17px;
+}
+.footeright{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+#footermail{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: white;
+    font-size: 17px;
+    margin-right: 10px;
+}
+#footerlogo{
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+
+.homeinfo{
+    display: flex;
+    align-items: center;
+    border-left: 50px solid #ff9933;
+    background-color: #ffe6cc;
+    height: 400px;
+}
+#hometext1{
+    margin: 0px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+#hometext2{
+    margin: 0px;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.homeinforight{
+    width: 450px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#homeinfophoto{
+    width: 450px;
+    height: 300px;
+}
+
+
+
+.productsinfo{
+    border-left: 50px solid #ff9933;
+    background-color: #ffe6cc;
+    height: 400px;
+}
+.productsinfotoporbottom{
+    display: flex;
+    align-items: center;
+    height: 50%;
+}
+.productinfotoporbottom{
+    text-align: center;
+    width: 25%;
+}
+#productsphoto{
+    width: 225px;
+    height: 150px;
+}
+.productinfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nameproduct{
+    margin: 0px;
+    font-size: 20px;
+}
+#carlogo{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+
+
+.partnersinfo{
+    display: flex;
+    align-items: center;
+    border-left: 50px solid #ff9933;
+    background-color: #ffe6cc;
+    height: 400px;
+}
+#partnershead{
+    margin: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 30px;
+}
+#partnerstext1{
+    margin: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 25px;
+    font-size: 20px;
+}
+#partnerstext2{
+    margin: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+
+
+.contactsinfo{
+    display: flex;
+    align-items: center;
+    border-left: 50px solid #ff9933;
+    background-color: #ffe6cc;
+    height: 400px;
+}
+.contactsleft{
+    width: 50%;
+    text-align: center;
+}
+.contactsright{
+    width: 25%;
+    text-align: center;
+}
+#map{
+    width: 550px;
+    height: 360px;
+}
+#conheadinfo{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#coninfo{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.form{
+    margin: 0px;
+}
+.forminfo{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.formsubinfo{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+#formname{
+    font-size: 20px;
+}
+#formsub{
+    font-size: 16px;
+}
